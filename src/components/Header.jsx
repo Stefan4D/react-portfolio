@@ -38,16 +38,23 @@ export default function Header() {
               </SheetContent>
             </Sheet>
             <Link to="/" className="ml-4 lg:ml-0">
-              <div className="text-xl font-bold">STEFAN</div>
+              <div className="text-2xl font-bold transition-all duration-300 hover:scale-105">
+                &#123; &#125; Stefan.
+              </div>
             </Link>
           </div>
           {/* code below needs to include hidden despite underline in editor in order to work */}
           <nav className="mx-6 flex items-center space-x-4 lg:space-x-6 hidden md:block">
             {routes.map((route, i) => (
-              <Button asChild variant="ghost" key={i}>
+              <Button
+                asChild
+                variant="ghost"
+                key={i}
+                className="hover:bg-black hover:text-white"
+              >
                 <Link
                   to={route.href}
-                  className="text-sm font-medium transition-colors"
+                  className="transition-colors text-base font-medium"
                 >
                   {route.label}
                 </Link>
@@ -70,20 +77,6 @@ export default function Header() {
           </div> */}
         </div>
       </Container>
-
-      {/* <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav> */}
     </header>
   );
 }

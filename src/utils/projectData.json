@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Team Profile Generator",
+    "description": "A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
+    "url": "#",
+    "github": "https://github.com/Stefan4D/team-profile-generator",
+    "image": "https://placehold.co/600x400",
+    "tech": ["JavaScript", "Node.js", "Inquirer"]
+  },
+  {
+    "id": 2,
+    "title": "README Generator",
+    "description": "A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+    "url": "#",
+    "github": "https://github.com/Stefan4D/node-readme-generator",
+    "image": "https://placehold.co/600x400",
+    "tech": ["JavaScript", "Node.js", "Inquirer", "Markdown"]
+  },
+  {
+    "id": 3,
+    "title": "Kogma iKog",
+    "description": "iKog is a clone of the discontinued iGoogle homepage application, presenting the user with various widgets of information i.e. news, weather.",
+    "url": "https://stefan4d.github.io/kogma-ikog/",
+    "github": "https://github.com/Stefan4D/kogma-ikog",
+    "image": "https://placehold.co/600x400",
+    "tech": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  },
+  {
+    "id": 4,
+    "title": "Daily Planner",
+    "description": "A simple calendar application that allows the user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
+    "url": "https://stefan4d.github.io/daily-planner/",
+    "github": "https://github.com/Stefan4D/daily-planner",
+    "image": "https://placehold.co/600x400",
+    "tech": ["HTML", "CSS", "JavaScript", "jQuery"]
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "description": "A weather dashboard that runs in the browser and features dynamically updated HTML and CSS. This app uses the OpenWeather API to retrieve weather data for cities.",
+    "url": "https://stefan4d.github.io/weather-dashboard/",
+    "github": "https://github.com/Stefan4D/weather-dashboard",
+    "image": "https://placehold.co/600x400",
+    "tech": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 6,
+    "title": "Code Quiz",
+    "description": "A timed coding quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.",
+    "url": "https://stefan4d.github.io/code-quiz/",
+    "github": "https://github.com/Stefan4D/code-quiz",
+    "image": "https://placehold.co/600x400",
+    "tech": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 7,
+    "title": "Password Generator",
+    "description": "An application that generates a random password based on user-selected criteria. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.",
+    "url": "https://stefan4d.github.io/password-generator/",
+    "github": "https://github.com/Stefan4D/password-generator",
+    "image": "https://placehold.co/600x400",
+    "tech": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 8,
+    "title": "Bootstrap Portfolio",
+    "description": "A portfolio website built using the Bootstrap CSS framework.",
+    "url": "https://stefan4d.github.io/Bootstrap-Portfolio/",
+    "github": "https://github.com/Stefan4D/Bootstrap-Portfolio",
+    "image": "https://placehold.co/600x400",
+    "tech": ["HTML", "CSS", "Bootstrap"]
+  }
+]
