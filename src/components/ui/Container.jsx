@@ -2,6 +2,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-export default function Container(props) {
-  return <div className="mx-auto w-full max-w-7xl">{props.children}</div>;
+export default function Container({
+  className,
+  width = "max-w-7xl",
+  children,
+}) {
+  return (
+    <div className={`mx-auto w-full ${width} ${className}`}>{children}</div>
+  );
 }
