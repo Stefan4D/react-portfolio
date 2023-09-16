@@ -5,24 +5,19 @@ import { Link } from "react-router-dom";
 
 import { Card, CardContent, CardFooter } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Github, Link as LinkIcon } from "lucide-react";
+import { Github, Link as LinkIcon, Youtube } from "lucide-react";
 
 export default function ProjectCard({ data: project }) {
   return (
     <Card className="rounded-lg border-2">
       <CardContent className="pt-4 pb-3">
-        <Link
-          to={project?.url}
-          className="outline-0 focus:ring-2 hover:ring-2 ring-primary transition duration-300 rounded-lg"
-        >
-          <div className="aspect-square relative bg-foreground/5 dark:bg-background rounded-lg">
-            <img
-              src={project?.image}
-              alt={project?.title}
-              className="aspect-square object-cover rounded-lg transition-all duration-300 hover:scale-105"
-            />
-          </div>
-        </Link>
+        <div className="aspect-square relative bg-foreground/5 dark:bg-background rounded-lg">
+          <img
+            src={project?.image}
+            alt={project?.title}
+            className="aspect-square object-cover rounded-lg border-2 border-black dark:border-white"
+          />
+        </div>
         <div>
           {project?.tech?.map((tag, i) => (
             <Badge key={i} className="mr-2 my-3">
@@ -39,11 +34,18 @@ export default function ProjectCard({ data: project }) {
         </div>
         <div className="flex ml-auto">
           <Link to={project?.github}>
-            <Github />
+            <Github className="transition-all duration-300 hover:scale-110" />
           </Link>
-          <Link to={project?.url}>
-            <LinkIcon />
-          </Link>
+          {project.url ? (
+            <Link to={project?.url}>
+              <LinkIcon className="transition-all duration-300 hover:scale-110" />
+            </Link>
+          ) : null}
+          {project.demo ? (
+            <Link to={project?.demo}>
+              <Youtube className="transition-all duration-300 hover:scale-110" />
+            </Link>
+          ) : null}
         </div>
       </CardFooter>
     </Card>
