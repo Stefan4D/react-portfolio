@@ -11,6 +11,33 @@ export default function Contact() {
       <Container className="text-center">
         <h1 className="text-6xl text-center my-5">Contact</h1>
         <div>Form goes here</div>
+        <div>
+          <form action="">
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" id="name" className="border-2 m-1" />
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              className="border-2 m-1"
+            />
+            <label htmlFor="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              className="border-2 m-1"
+            ></textarea>
+            <button
+              type="submit"
+              className="hover:bg-black hover:text-white px-3 py-1 outline rounded-lg"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
         <div className="flex text-center justify-center mt-5">
           <Link to="mailto:fake@email.com">
             <AtSign className="mr-3" />
