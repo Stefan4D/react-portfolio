@@ -26,11 +26,6 @@ export default function Home() {
           </div>
         </Container>
       </Container>
-
-      {/* 1. Your Name 
-      2. A headshot of you (or an avatar) 
-      3. Your brand statement 
-      4. Some indication that this is your portfolio site */}
     </>
   );
 }

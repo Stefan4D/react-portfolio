@@ -5,6 +5,7 @@ import Contact from "./views/Contact";
 import Projects from "./views/Projects";
 import NotFound from "./views/NotFound";
 import Header from "./components/Header";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/projects/:id" element={<Projects />} /> */}
+          <Route path="/projects/:id" element={<Project />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

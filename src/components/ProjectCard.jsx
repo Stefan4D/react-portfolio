@@ -12,11 +12,13 @@ export default function ProjectCard({ data: project }) {
     <Card className="rounded-lg border-2">
       <CardContent className="pt-4 pb-3">
         <div className="aspect-square relative bg-foreground/5 dark:bg-background rounded-lg">
-          <img
-            src={project?.image}
-            alt={project?.title}
-            className="aspect-square object-cover rounded-lg border-2 border-black dark:border-white"
-          />
+          <Link to={`/projects/${project.id}`}>
+            <img
+              src={project?.image}
+              alt={project?.title}
+              className="aspect-square object-cover rounded-lg border-2 border-black dark:border-white"
+            />
+          </Link>
         </div>
         <div>
           {project?.tech?.map((tag, i) => (
