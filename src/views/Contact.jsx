@@ -8,11 +8,10 @@ import Container from "../components/ui/Container";
 export default function Contact() {
   return (
     <Container width="w-full">
-      <Container className="text-center">
+      <Container width="max-w-2xl">
         <h1 className="text-6xl text-center my-5">Contact</h1>
-        <div>Form goes here</div>
         <div>
-          <form action="">
+          <form action="" className="flex flex-col">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" className="border-2 m-1" />
             <label htmlFor="email">Email</label>
