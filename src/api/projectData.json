@@ -5,7 +5,7 @@
     "description": "A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
     "url": "",
     "github": "https://github.com/Stefan4D/team-profile-generator",
-    "image": "https://placehold.co/600x400",
+    "image": "/images/projects/team-profile-generator.jpg",
     "tech": ["JavaScript", "Node.js", "Inquirer"],
     "demo": ""
   },
@@ -15,7 +15,7 @@
     "description": "A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
     "url": "",
     "github": "https://github.com/Stefan4D/node-readme-generator",
-    "image": "https://placehold.co/600x400",
+    "image": "/images/projects/node-readme-generator.jpg",
     "tech": ["JavaScript", "Node.js", "Inquirer", "Markdown"],
     "demo": "https://youtu.be/0DOTfE0635E"
   },
