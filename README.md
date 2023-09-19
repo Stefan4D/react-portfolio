@@ -13,6 +13,8 @@ The site uses the following technologies:
 - Tailwind CSS
 - shadcn UI components (badge, button, card, sheet)
 
+![Screenshot of deployed webpage](./deployed_app.png)
+
 ## Table of Contents
 
 - [Description](#description)
