@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Container from "./ui/Container";
+import Container from "../components/ui/Container";
 import { useParams } from "react-router-dom";
 
-import projects from "../utils/projectData.json";
+import projects from "../api/projectData.json";
 
 export default function Project() {
   const { id } = useParams();

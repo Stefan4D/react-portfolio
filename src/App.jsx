@@ -5,7 +5,7 @@ import Contact from "./views/Contact";
 import Projects from "./views/Projects";
 import NotFound from "./views/NotFound";
 import Header from "./components/Header";
-import Project from "./components/Project";
+import Project from "./views/Project";
 
 function App() {
   return (

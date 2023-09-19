@@ -5,7 +5,7 @@ import Container from "./ui/Container";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-import routes from "../utils/routes";
+import routes from "../lib/routes";
 import { Menu } from "lucide-react";
 // import { Moon, Sun } from "lucide-react";
 
@@ -24,6 +24,7 @@ export default function Header() {
                 side="left"
                 className="w-[300px] sm:w-[400px] bg-white"
               >
+                {/* TODO: Add onClick handler to links to also close the dialog using data-state property */}
                 <nav className="flex flex-col gap-4">
                   {routes.map((route, i) => (
                     <Link

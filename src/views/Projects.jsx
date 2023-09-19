@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import Container from "@/components/ui/Container";
 
-import projects from "../utils/projectData.json";
+import projects from "../api/projectData.json";
 
 export default function Projects() {
   return (
