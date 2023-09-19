@@ -79,7 +79,7 @@ export default function Contact() {
           <Link to="https://github.com/Stefan4D">
             <Github className="mr-3 transition-all duration-300 hover:scale-110" />
           </Link>
-          <Link to="/files/CV-template.pdf">
+          <Link to="https://drive.google.com/file/d/1fzBXFrj2fXz-0bMThDjYBl7DLgH5CKs4/view?usp=sharing">
             <FileText className="transition-all duration-300 hover:scale-110" />
           </Link>
         </div>
