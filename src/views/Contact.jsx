@@ -71,16 +71,16 @@ export default function Contact() {
         </div>
         <div className="flex text-center justify-center mt-5">
           <Link to="mailto:fake@email.com">
-            <AtSign className="mr-3" />
+            <AtSign className="mr-3 transition-all duration-300 hover:scale-110" />
           </Link>
           <Link to="https://www.linkedin.com/">
-            <Linkedin className="mr-3" />
+            <Linkedin className="mr-3 transition-all duration-300 hover:scale-110" />
           </Link>
           <Link to="https://github.com/Stefan4D">
-            <Github className="mr-3" />
+            <Github className="mr-3 transition-all duration-300 hover:scale-110" />
           </Link>
           <Link to="/files/CV-template.pdf">
-            <FileText />
+            <FileText className="transition-all duration-300 hover:scale-110" />
           </Link>
         </div>
       </Container>

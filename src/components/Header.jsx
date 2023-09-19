@@ -24,7 +24,14 @@ export default function Header() {
                 side="left"
                 className="w-[300px] sm:w-[400px] bg-white"
               >
-                {/* TODO: Add onClick handler to links to also close the dialog using data-state property */}
+                {/* 
+                  TODO: Add onClick handler to links to also close the dialog using data-state property 
+                  - element has id 'radix-:r3:' and data-state property 'open'
+
+                  - select the element with id 'radix-:r3:'
+                  - when a link in the menu is clicked, close the dialog
+
+                */}
                 <nav className="flex flex-col gap-4">
                   {routes.map((route, i) => (
                     <Link
